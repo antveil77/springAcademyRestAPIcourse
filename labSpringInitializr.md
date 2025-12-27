@@ -2,9 +2,9 @@
 Notes du lab Sring Initializr  
 https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/bootstrap-lab
 
-##Create project##  
+## Create project ##  
 
-###Spring Initializr###  
+### Spring Initializr ###  
 Select the following options:
 
 Project: Gradle - Groovy
