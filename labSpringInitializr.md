@@ -20,6 +20,9 @@ Packaging: Jar
 Java: 17
 Note: You don't have to enter the "Package name" field -- Spring Initializr will fill this in for you!
 
+![Spring Initializr](springAcademyRestAPIcourse
+/photos/LabSpringInitializr_Image1.png
+
 Select the ADD DEPENDENCIES... button from the Dependencies panel.
 
 Select the following option, since we know that we'll be creating a web application:
