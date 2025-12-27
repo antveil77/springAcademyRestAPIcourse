@@ -18,7 +18,7 @@ Spring boot is a comprehensive framework that gives you a lot of flexibility and
 Spring Boot takes advantage of Spring Core's Inversion of Control (IoC) container.
 Allows you to configure how and when dependencies are provided to your application at runtime.
 
-Investion of control is often called dependency injection (DI).
+Investion of control is often called dependency injection (DI).  
 https://docs.spring.io/spring-framework/reference/core/beans.html
 
 **Spring Initializr**  
