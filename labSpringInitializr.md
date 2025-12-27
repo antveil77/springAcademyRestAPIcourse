@@ -20,7 +20,7 @@ Packaging: Jar
 Java: 17
 Note: You don't have to enter the "Package name" field -- Spring Initializr will fill this in for you!
 
-![Spring Initializr](photos/LabSpringInitializr_Image1.png)
+![Spring Initializr](images/LabSpringInitializr_Image1.png)
 
 Select the ADD DEPENDENCIES... button from the Dependencies panel.
 
