@@ -8,19 +8,19 @@ https://spring.academy/courses/building-a-rest-api-with-spring-boot/lessons/spri
 
 #### Spring and Spring Boot
 
-**Spring**
+**Spring**  
 Spring is a comprehensive framework that provide various modules for building different types of applications.
 
-**Spring Boot**
+**Spring Boot**  
 Spring boot is a comprehensive framework that gives you a lot of flexibility and makes working with Spring much simplier.
 
-**Spring's Inversion of Control Container**
+**Spring's Inversion of Control Container**  
 Spring Boot takes advantage of Spring Core's Inversion of Control (IoC) container.
 Allows you to configure how and when dependencies are provided to your application at runtime.
 
 Investion of control is often called dependency injection (DI).
 https://docs.spring.io/spring-framework/reference/core/beans.html
 
-**Spring Initializr**
+**Spring Initializr**  
 When starting a new Spring Boot application, Spring Initializr is the recommended first step.
 Think of it as a shopping cart for all of the dependencies of your application.
