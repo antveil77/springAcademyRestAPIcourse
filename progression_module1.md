@@ -33,5 +33,5 @@ JSON (Javascript Object Notation) provides a data interchange format that repres
 
 # 2025-12-28
 
-Rendu à la leçon "Lab: Testing First
+Rendu à la leçon "Lab: Testing First"
 
