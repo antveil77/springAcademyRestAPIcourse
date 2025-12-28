@@ -30,3 +30,8 @@ API contracts are important because they communicate the behavior of a REST API.
 
 **What is JSON**
 JSON (Javascript Object Notation) provides a data interchange format that represents the particular information of an object in a format that you can easily read and understand.
+
+# 2025-12-28
+
+Rendu à la leçon "Lab: Testing First
+
