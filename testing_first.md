@@ -10,3 +10,5 @@ Another benefit of “test-driving” the application code is that the tests gui
 
 ## The Testing Pyramid
 Different tests can be written at different levels of the system. At each level, there is a balance between the speed of execution, the “cost” to maintain the test, and the confidence it brings to system correctness
+
+![Spring Initializr](images/LabSpringInitializr_Image3.png)  
