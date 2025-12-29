@@ -8,4 +8,7 @@ The purpose of a RESTful API (Application Programming Interface) is to manage th
 
 Said another way, you can think of “state” being “value” and “Resource Representation” being an “object” or "thing".
 
+![Spring Initializr](/images/LabSpringInitializr_Image4.png)  
+
+
 
