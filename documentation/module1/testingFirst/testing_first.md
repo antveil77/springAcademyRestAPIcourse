@@ -11,7 +11,7 @@ Another benefit of “test-driving” the application code is that the tests gui
 ## The Testing Pyramid
 Different tests can be written at different levels of the system. At each level, there is a balance between the speed of execution, the “cost” to maintain the test, and the confidence it brings to system correctness
 
-![Spring Initializr](images/LabSpringInitializr_Image3.png)  
+![Spring Initializr](/images/LabSpringInitializr_Image3.png)
 
 **Unit Tests**: A Unit Test exercises a small “unit” of the system that's isolated from the rest of the system. They should be simple and speedy. You want a high ratio of Unit Tests in your testing pyramid, as they’re key to designing highly cohesive, loosely coupled software.
 
