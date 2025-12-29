@@ -80,6 +80,52 @@ From here, the bean can be injected into any code that requests it.
 In Spring Web, Requests are handled by Controllers. In this lesson, you’ll use the more specific 
 RestController:
 
+```Java
+@RestController
+class CashCardController {
+}
+```
+
+![Spring Initializr](/images/LabSpringInitializr_Image5.png)  
+
+A Controller method can be designated a handler method, to be called when a request that the method knows how to handle (called a “matching request”) is received. Let’s write a Read request handler method! Here’s a start:
+
+```Java
+private CashCard findById(Long requestedId) {
+}
+```
+
+Since REST says that Read endpoints should use the HTTP GET method, you need to tell Spring to route requests to the method only on GET requests. You can use @GetMapping annotation, which needs the URI Path:
+
+```Java
+@GetMapping("/cashcards/{requestedId}")
+private CashCard findById(Long requestedId) {
+}
+```
+
+Spring needs to know how to get the value of the **requestedId** parameter. This is done using the **@PathVariable** annotation. The fact that the parameter name matches the **{requestedId}** text within the @GetMapping parameter allows Spring to assign (inject) the correct value to the requestedId variable:
+
+```Java
+@GetMapping("/cashcards/{requestedId}")
+private CashCard findById(@PathVariable Long requestedId) {
+}
+```  
 
 
+REST says that the Response needs to contain a Cash Card in its body, and a Response code of 200 (OK). Spring Web provides the ResponseEntity class for this purpose. It also provides several utility methods to produce Response Entities. Here, you can use ResponseEntity to create a ResponseEntity with code 200 (OK), and a body containing a CashCard. The final implementation looks like this:
 
+```Java
+@RestController
+class CashCardController {
+  @GetMapping("/cashcards/{requestedId}")
+  private ResponseEntity<CashCard> findById(@PathVariable Long requestedId) {
+     CashCard cashCard = /* Here would be the code to retrieve the CashCard */;
+     return ResponseEntity.ok(cashCard);
+  }
+}
+```
+
+## Summary  
+
+In this lesson, you learned how REST uses HTTP to define CRUD operations in an API.
+Then, you learned how to define a Spring Controller to implement the REST Read endpoint, and how to use additional Spring functionality to easily process the Request and Response in a Controller.
