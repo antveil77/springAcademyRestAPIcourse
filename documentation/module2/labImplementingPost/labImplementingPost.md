@@ -4,6 +4,7 @@
 - [Lab Implementing POST](#lab-implementing-post)
 - [Test the HTTP POST Endpoint](#test-the-HTTP-POST-Endpoint)
 - [Executing first run with POST test](#executing-first-run-with-POST-test)
+- [Implementing POST Endpoint](#implementing-post-endpoint)
 - [Summary](#summary)
 
 ## Lab Implementing POST  
@@ -43,6 +44,12 @@ What do you expect will happen?
    but was: 404 NOT_FOUND
 
 We shouldn't be surprised by the 404 NOT_FOUND error. We haven't added the POST endpoint yet!
+
+## Implementing POST Endpoint  
+
+For our POST endpoint, review this section about HTTP POST; note that we've added emphasis:
+
+>If one or more resources has been created on the origin server as a result of successfully processing a POST request, the origin server SHOULD send a 201 (Created) response containing a Location header field that provides an identifier for the primary resource created ...
 
 ## Summary  
 blabla
