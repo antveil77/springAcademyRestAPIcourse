@@ -3,12 +3,13 @@
 ## Table of Contents
 - [Lab Implementing POST](#lab-implementing-post)
 - [Test the HTTP POST Endpoint](#test-the-HTTP-POST-Endpoint)
+- [Executing first run with POST test](#executing-first-run-wuth-POST-test)
 - [Summary](#summary)
 
 ## Lab Implementing POST  
 blabla
 
-## Test the HTTP POST Endpoint
+## Test the HTTP POST Endpoint  
 
 Code
 ```JAVA
@@ -31,6 +32,17 @@ The database will create and manage all unique CashCard.id values for us. We sho
 This is very similar to restTemplate.getForEntity, but we must also provide newCashCard data for the new CashCard.
 
 In addition, and unlike restTemplate.getForEntity, we don't expect a CashCard to be returned to us, so we expect a Void response body.
+
+## Executing first run with POST test  
+
+What do you expect will happen?
+
+>CashCardApplicationTests > shouldCreateANewCashCard() FAILED
+   org.opentest4j.AssertionFailedError:
+   expected: 200 OK
+   but was: 404 NOT_FOUND
+
+We shouldn't be surprised by the 404 NOT_FOUND error. We haven't added the POST endpoint yet!
 
 ## Summary  
 blabla
