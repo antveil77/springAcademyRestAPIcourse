@@ -86,7 +86,3 @@ We’ve made some decisions about how our API will support creating Family Cash 
 * The API will accept POST requests to create a Cash Card.
 * The server will create IDs for all Cash Cards.
 * On success, the API will return a Response with Status Code: 201 CREATED, containing the URI (location) of the new Cash Card resource in the Response headers.
-
----
-
-Si tu veux, je peux aussi **générer automatiquement la table des matières à partir d’un autre fichier**, ou **te montrer comment automatiser ça dans VS Code**.
