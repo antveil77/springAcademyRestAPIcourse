@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Lab Implementing POST](#lab-implementing-post)
 - [Test the HTTP POST Endpoint](#test-the-HTTP-POST-Endpoint)
-- [Executing first run with POST test](#executing-first-run-wuth-POST-test)
+- [Executing first run with POST test](#executing-first-run-with-POST-test)
 - [Summary](#summary)
 
 ## Lab Implementing POST  
